@@ -1,0 +1,16 @@
+														Notes
+1) BeautifulSoap -  Beautiful Soup is a parsing library which also does pretty job of fetching contents from Url and allows you 					to parse certain parts of them without any hassle.
+2) Scrapy - is a full framework for web crawling which has the tools to manage every stage of a web crawl.
+			Scrapy is a Web-spider or web scraper framework, You give Scrapy a root URL to start crawling, then you can specify constraints on how many number of Urls you want to crawl and fetch,etc., It is a complete framework for Web-scrapping or crawling.
+    											
+
+Stages of Web Crawl:
+1. Requests manager - which basically is in charge of downloading pages and the great bit about it is that it does it all concurrently behind the scenes, so you get the speeds of concurrency without needing to invest a lot of time in concurrent architecture.
+2. Selectors -  which is used to parse the html document to find the bits you need. BeautifulSoup does exact same thing, you can actually use it instead of scrapy Selectors if you prefer it.
+3. Pipelines - Once you retrieve the data you can pass the data through various pipelines which are basically bunch of functions to modify the data.
+
+Using the Scrapy framework:
+  Heres the tutorial documentation - https://docs.scrapy.org/en/latest/intro/tutorial.html
+
+  Key points:
+  
