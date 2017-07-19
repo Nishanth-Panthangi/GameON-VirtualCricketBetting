@@ -3,6 +3,12 @@
 2) Scrapy - is a full framework for web crawling which has the tools to manage every stage of a web crawl.
 			Scrapy is a Web-spider or web scraper framework, You give Scrapy a root URL to start crawling, then you can specify constraints on how many number of Urls you want to crawl and fetch,etc., It is a complete framework for Web-scrapping or crawling.
     											
+Links: 
+1) Running a scrapy spider in the background
+	- https://stackoverflow.com/questions/22540489/running-a-scrapy-spider-in-the-background-in-a-flask-app
+	- https://stackoverflow.com/questions/21662689/scrapy-run-spider-from-script
+	- https://kirankoduru.github.io/python/running-scrapy-programmatically.html
+
 
 Stages of Web Crawl:
 1. Requests manager - which basically is in charge of downloading pages and the great bit about it is that it does it all concurrently behind the scenes, so you get the speeds of concurrency without needing to invest a lot of time in concurrent architecture.
@@ -11,6 +17,4 @@ Stages of Web Crawl:
 
 Using the Scrapy framework:
   Heres the tutorial documentation - https://docs.scrapy.org/en/latest/intro/tutorial.html
-
-  Key points:
-  
+  sample url - http://www.oddsportal.com/cricket/
