@@ -1,0 +1,2 @@
+To implement search friends -
+ SELECT * FROM Customers where CustomerName like '%red%';
